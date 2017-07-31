@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Raleway, sans-serif, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#header-cont {
+    width: auto;
+    height: 386px;
+    background: url("../img/bg_black.jpg");
+    color: white;
+}
+
+#header-nav {
+    right: 20px;
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+#bcts {
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: normal;
+    /*display: inline-block;*/
+    float: left;
+}
+
+header a {
+    text-decoration: inherit;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+#header-nav > nav {
+    margin: 0 15px;
+    float: right;
+
+}
+
+#header-nav > nav > ul > li{
+    list-style: none;
+    padding: 15px 12px;
+    /*display: inline-block;*/
+
+    float: left;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+#header-box {
+/*display: flex;*/
+    position: fixed;
+    table-layout: fixed;
+    display: table;
+    min-width: 100%;
+}
+
+#header-title {
+    font-size: 35px;
+    display: block;
+    /*margin-top: 60px;*/
+    padding-top: 110px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#header-held {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+
+}
+
+#icpads {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+ .sec{
+     width: 1000px;
+     margin: 0 auto;
+ }
+
+ p {
+     margin-top: 15px;
+ }
+
+.sec-bottom {
+    /*margin: 50px;*/
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+section a {
+    color: #aa004b;
+}
+
+section h1{
+    height: 100px;
+    line-height: 100px;
+    color: #aa004b;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

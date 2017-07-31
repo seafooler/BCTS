@@ -1,0 +1,29 @@
+#sec-program {
+    /*display: block;*/
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: #aa004b;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sec-program > h1 {
+    text-decoration: underline;
+}
+
+#sec-cfp li {
+    margin: 15px 100px;
+}
+
+#home-nav {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: -3.5px;
+}
+
+#sec-dates > h2 {
+    font-size: 22px;
+}

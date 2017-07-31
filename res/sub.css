@@ -1,0 +1,19 @@
+#sub-nav {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: -3.5px;
+}
+
+#sec-sub {
+    height: 100px;
+    line-height: 100px;
+    color: #aa004b;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sub-link {
+    color: #aa004b;
+}

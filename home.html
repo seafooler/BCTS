@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="res/common.css">
+    <link rel="stylesheet" href="res/home.css">
+    <title>Workshop - BCTS</title>
+    <script type="text/javascript">
+        window.onscroll = function(){
+            var t = document.documentElement.scrollTop || document.body.scrollTop;
+            var header_box = document.getElementById( "header-box" );
+            var a_home = document.getElementById("home-nav")
+            if( t >= 30 ) {
+                header_box.style.backgroundColor = "#212121";
+                a_home.style.color = "#aa004b";
+            } else {
+                header_box.style.backgroundColor = "inherit";
+                a_home.style.color = "inherit";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div id="header-cont">
+            <div id="header-box">
+                <div id="bcts">
+                    <a href="index.html">
+                        <span> ICPADS BCTS 2017</span>
+                    </a>
+                </div>
+                <div id="header-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html" id="home-nav">Home</a></li>
+                            <li><a href="submission.html" id="sub-nav">Submission Info</a></li>
+                            <li><a href="organization.html" id="org-nav">Organization</a></li>
+                            <li><a href="dates.html" id="dat-nav">Important Dates</a></li>
+                            <li><a href="speaker.html" id="spe-nav">Invited Speakers</a></li>
+                            <li><a href="program.html"  id="pro-nav">Program</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+            <div>
+                <span id="header-title">The 1st International Workshop on Blockchain Technology and Systems (BCTS 2017)</span>
+            </div>
+            <div id="header-held">
+                <p>Held In Conjunction With </p>
+                <a id="icpads" href="http://www.futurenet.ac.cn/icpads2017/">ICPADS 2017</a>
+                <p>XX XX, December 15, 2017</p>
+            </div>
+        </div>
+    </header>
+    <section class="sec" id="sec-program">
+        <h1>PROGRAM</h1>
+    </section>
+    <section class="sec" id="sec-cfp">
+        <div id="bc-des">
+            <p>CFP</p>
+            <p>As one of the most revolutionary emerging technologies in recent years, Blockchain has made a big impact on our world. By building trust in a decentralized way, it arouses public attention of many industries, including governments, financial institutions, enterprises, news medias and so on. However, Blockchain is not a panacea! There are still a few problems related to Blockchain to be solved, such as transaction efficiency and privacy protection. The goal of the 2017 Blockchain Technology and Systems workshop is to bring together internationally leading academic and industrial researchers in an effort to identify and discuss the major technical challenges and recent results aimed at addressing the problems concerned to Blockchain.</p>
+            <p>Topics of interest include, but are not limited to:</p>
+        </div>
+        <div>
+            <ul>
+                <li>Transaction efficiency problem of Blockchain</li>
+                <li>Privacy protection problem of Blockchain</li>
+                <li>Other technical challenges related to Blockchain</li>
+                <li>Practical application examples in production environment</li>
+                <li>Studies about crypto-currency technology</li>
+                <li>Studies about smart contracts technology</li>
+                <li>New application of Blockchain technology</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="sec sec-bottom" id="sec-dates">
+        <h2>IMPORTANT DATES</h2>
+        <p>Paper Submission Deadline: <b>15 September, 2017</b></p>
+        <p>Acceptance Notification: <b>September, 2017</b></p>
+        <p>Camera Ready: <b>5 October, 2017</b></p>
+        <p>Workshop Date: <b>15 December, 2017</b></p>
+    </section>
+
+</body>
+</html>
